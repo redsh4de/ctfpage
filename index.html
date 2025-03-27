@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mārtiņa-CTF 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="grid-overlay"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <div class="pixel-art">
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+                <h1><span class="green-text">Mārtiņa-</span><span class="red-text">CTF</span></h1>
+            </div>
+        </div>
+
+        <!-- Mobile menu toggle-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+        <label for="menu-toggle" class="menu-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="cta-button">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="glitch-container">
+                    <h2 class="glitch" data-text="Hello World!">Hello World!</h2>
+                </div>
+                <h3 class="subtitle">It's me - <span class="green-text">Mārtiņš!</span></h3>
+
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-button"></span>
+                        <span class="terminal-button"></span>
+                        <span class="terminal-button"></span>
+                        <span class="terminal-title">martina@ctf:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p>Listen up, digital daredevils!</p>
+                        <p>It's your resident hacker-in-chief, back with a brand-new announcement that'll send sparks
+                         flying — <span class="highlight">our CTF event is making its epic return!</span> 🔥</p>
+
+                        <p>This isn't just any Capture The Flag game — it's a cyber showdown hotter than a server farm
+                            in a heatwave! But, hold up, you don't get to waltz in unannounced. You need to <span class="highlight">register first</span>.
+                            No sweat, though—it's easier than cracking your grandma's Wi-Fi password.</p>
+                    </div>
+                </div>
+
+                <div class="countdown">
+                    <h4>Event Starts In:</h4>
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
+                            <div class="countdown-value">14</div>
+                            <div class="countdown-label">Days</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-value">08</div>
+                            <div class="countdown-label">Hours</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-value">23</div>
+                            <div class="countdown-label">Minutes</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-value">42</div>
+                            <div class="countdown-label">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h4 style="text-align: center; margin-bottom: 2rem;">Now, I bet you're asking - Why should I jump into
+                    <span class="green-text">Mārtiņa-</span><span class="red-text">CTF</span> 3.0?</h4>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-brain-circuit-icon lucide-brain-circuit">
+                                <path
+                                    d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
+                                <path d="M9 13a4.5 4.5 0 0 0 3-4" />
+                                <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
+                                <path d="M3.477 10.896a4 4 0 0 1 .585-.396" />
+                                <path d="M6 18a4 4 0 0 1-1.967-.516" />
+                                <path d="M12 13h4" />
+                                <path d="M12 18h6a2 2 0 0 1 2 2v1" />
+                                <path d="M12 8h8" />
+                                <path d="M16 8V5a2 2 0 0 1 2-2" />
+                                <circle cx="16" cy="13" r=".5" />
+                                <circle cx="18" cy="3" r=".5" />
+                                <circle cx="20" cy="21" r=".5" />
+                                <circle cx="20" cy="8" r=".5" />
+                            </svg>
+                        </div>
+                        <h4>Brain-Busting Challenges</h4>
+                        <p>We've crafted puzzles so twisted they'll make even the best hackers question their life choices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-scroll-icon lucide-scroll">
+                                <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+                                <path
+                                    d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+                            </svg>
+                        </div>
+                        <h4>Legendary Status</h4>
+                        <p>Conquer this CTF, and you'll have bragging rights that'll make you a myth in this Mārtiņa hacking world.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-trophy-icon lucide-trophy">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                                <path d="M4 22h16" />
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                            </svg>
+                        </div>
+                        <h4>Bountiful Loot</h4>
+                        <p>Prizes that could rival the haul of a digital pirate. Think high-tier swag and maybe a
+                            virtual trophy!</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-plane-icon lucide-plane">
+                                <path
+                                    d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+                            </svg>
+                        </div>
+                        <h4>It's Plane Fun</h4>
+                        <p>We're very serious here. No funny business!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <div class="container">
+                <h2>Our <span class="green-text">Event Supporters</span></h2>
+                <p class="section-description">These amazing organizations make <span
+                        class="green-text">Mārtiņa-</span><span class="red-text">CTF</span> possible <3< /p>
+
+                        <div class="sponsors-grid">
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/possible.svg" alt="Possible Security">
+                                </div>
+                            </div>
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/accenture.png" alt="Accenture">
+                                </div>
+                            </div>
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/gravity_team.png" alt="Gravity Team">
+                                </div>
+                            </div>
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/cert.png" alt="CERT.LV">
+                                </div>
+                            </div>
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/lusp.png" alt="LUSP">
+                                </div>
+                            </div>
+                            <div class="sponsor-card">
+                                <div class="sponsor-logo">
+                                    <img src="/images/sponsors/datoriku_biedriba.png" alt="Biedrība 'Datoriķi'">
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to test your mettle?</h2>
+                <p>Face the fiercest hacks, and carve your name into CTF glory? Hit that sign-up button quicker than an
+                    exploit goes viral.</p>
+                <a href="#" class="cta-button">Register Now</a>
+                <p class="cta-footer">See you in the trenches, future legends! 💥🔒 #ReturnOfMartinaCTF</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span class="green-text">Mārtiņa-</span><span class="red-text">CTF</span></h3>
+                    <p>The ultimate cybersecurity challenge</p>
+                    <p>This page supports NoJS!</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mārtiņa-CTF. All rights reserved. Hack responsibly.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
