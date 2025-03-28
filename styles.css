@@ -115,7 +115,36 @@ a {
 }
 
 /* Header */
-header {
+#year-selector {
+    display: flex;
+    background-color: var(--bg-secondary);
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem;
+    margin-bottom: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.25rem 0;
+}
+
+#year-selector li {
+    list-style: none;
+}
+
+#year-selector li:hover {
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+#year-selector li.active {
+    background-color: var(--accent-green);
+    color: var(--bg-color);
+    border-radius: 5px;
+}
+
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
