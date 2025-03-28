@@ -1,7 +1,5 @@
 @import url('./index.css');
 
-/* About Page Specific Styles */
-
 .about-hero {
     padding: 4rem 0 2rem;
     text-align: center;
@@ -32,7 +30,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     max-width: 1000px;
     margin: 0 auto;
-    height: 550px;
+    height: 600px;
 }
 
 .file-sidebar {
@@ -57,21 +55,6 @@
     width: 18px;
     height: 18px;
     color: #e3b341;
-}
-
-.file-list {
-    list-style: none;
-}
-
-.file-list li {
-    position: relative;
-}
-
-.file-list input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
 }
 
 .file-list label {
@@ -118,12 +101,8 @@
 }
 
 .file-actions {
-    display:  monospace;
     font-size: 0.9rem;
     color: var(--text-secondary);
-}
-
-.file-actions {
     display: flex;
     gap: 1rem;
 }
@@ -253,7 +232,6 @@
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
 }
-
 
 .cta-banner {
     background: linear-gradient(90deg, var(--accent-green), var(--accent-blue));
