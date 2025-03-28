@@ -254,6 +254,22 @@
     font-size: 1.25rem;
 }
 
+
+.cta-banner {
+    background: linear-gradient(90deg, var(--accent-green), var(--accent-blue));
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta-banner p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0a0e17;
+    margin-bottom: 0;
+}
+
 /* Important Info Section */
 .important-info {
     padding: 4rem 0;
