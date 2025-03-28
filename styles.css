@@ -129,9 +129,11 @@ a {
 
 #year-selector li {
     list-style: none;
+    font-size: 1.1rem;
+    padding: 0 5px;
 }
 
-#year-selector li:hover {
+#year-selector a:hover {
     color: var(--text-secondary);
     cursor: pointer;
     transition: all 0.3s ease;
