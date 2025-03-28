@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Mārtiņa-CTF 2025</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap">
 </head>
@@ -24,7 +24,6 @@
             <div class="logo-container">
                 <div class="logo">
                     <div class="pixel-art">
-                        <div class="pixel"></div>
                         <div class="pixel"></div>
                         <div class="pixel"></div>
                         <div class="pixel"></div>
@@ -85,6 +84,304 @@
     </header>
 
     <main>
+        <section class="event-program">
+            <div class="container">
+                <h3>Event Program</h3>
+                
+                <div class="file-viewer">
+                    <input style="display: none;" type="radio" name="file-tab" id="day1" checked>
+                    <input style="display: none;" type="radio" name="file-tab" id="day2">
+                    <input style="display: none;" type="radio" name="file-tab" id="day3">
+
+                    <div class="file-sidebar">
+                        <div class="file-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon">
+                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <span>event-program/</span>
+                        </div>
+                        <ul class="file-list">
+                            <li>              
+                                <label for="day1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="file-icon">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                    day1.md
+                                </label>
+                            </li>
+                            <li>
+                                <label for="day2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="file-icon">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                    day2.md
+                                </label>
+                            </li>
+                            <li>
+                                <label for="day3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="file-icon">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                    day3.md
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="file-content">
+                        <div class="file-content-header">
+                            <div class="file-path">(View-only mode)</div>
+                            <div class="file-actions">
+                                <span class="file-action">Raw</span>
+                                <span class="file-action">Blame</span>
+                                <span class="file-action">History</span>
+                            </div>
+                        </div>
+                        
+                        <div class="file-content-body">
+                            <div class="file-tab-content" id="day1-content">
+                                <h4 class="file-title">November 1st - Day 1</h4>
+                                <table class="event-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                            <th>Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>16:30</td>
+                                            <td>Mārtiņa-CTF Waiting room</td>
+                                            <td>Remote, Jitsi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>17:00</td>
+                                            <td>KICK-OFF<br>Lecture A: Hacking tools and tips, cybersecurity specialist Daniels Heincis</td>
+                                            <td>Remote, Jitsi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18:00</td>
+                                            <td>Lecture B: HTB Soccer Walkthrough, Pēteris Paikens</td>
+                                            <td>Remote, Jitsi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18:45</td>
+                                            <td>HACKING STARTS!</td>
+                                            <td>Remote</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="file-tab-content" id="day2-content">
+                                <h4 class="file-title">November 2nd - Day 2</h4>
+                                <table class="event-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                            <th>Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>All Day</td>
+                                            <td>KEEP HACKING!</td>
+                                            <td>Remote</td>
+                                        </tr>
+                                        <tr>
+                                            <td>17:00</td>
+                                            <td>MĀRTIŅA GAME SHOW #1</td>
+                                            <td>Remote</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18:00</td>
+                                            <td>CHECK IN.<br>Discord voice channel #GENERAL</td>
+                                            <td>Remote, Discord</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="file-tab-content" id="day3-content">
+                                <h4 class="file-title">November 3rd - Day 3</h4>
+                                <table class="event-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                            <th>Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Early</td>
+                                            <td>KEEP HACKING! Online or...</td>
+                                            <td>Remote</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:00</td>
+                                            <td>IN-PERSON event START!</td>
+                                            <td>In-Person</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:00</td>
+                                            <td>MĀRTIŅA GAME SHOW #2</td>
+                                            <td>In-Person</td>
+                                        </tr>
+                                        <tr>
+                                            <td>17:00</td>
+                                            <td>HACKING ENDS!</td>
+                                            <td>In-Person & Remote</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18:00</td>
+                                            <td>AWARD CEREMONY! Room TBA.</td>
+                                            <td>In-Person</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-sections">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h4>Team-Up for Glory!</h4>
+                        <div>
+                            <p>You can team up with up to 5 people — gather your code-crackers, tech enthusiasts, or that one friend who can't resist a challenge. But here's the twist: we've got participant tracks to choose from!</p>
+                            <p>If you're just starting out or new to hacking, we've got a track tailored just for you - the <span class="highlight">beginner track</span>! However, if you're already packing some serious IT skills or hacking chops, jump into the <span class="highlight">advanced track</span>.</p>
+                            <p>The tasks? Same for everyone. The prizes? A little extra sweet for those who take the expert route. You get to pick your path, but the organizers might bump you up if they think you're ready for the big leagues.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h4>When & Where</h4>
+                        <div>
+                            <p>Mark your calendars for <span class="highlight">November 1st to November 3rd</span>. The CTF kicks off with two guest lectures...</p>
+                            <p>The competition itself starts at <span class="highlight">17:00 sharp on the 1st</span>, and from then on, it's a rollercoaster of cyber action.</p>
+                            <p>And hey, get ready for this: on <span class="highlight">November 3rd</span>, we're hosting an in-person showdown at <span class="highlight">Jelgavas iela 3, Rīga</span>. That's right, folks, some challenges that can only be solved in-person! Come prove your prowess on the ground.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h4>The Magic of Prizes</h4>
+                        <div>
+                            <p>Oh, you better believe we've got a treasure trove of loot waiting for the champions of Mārtiņa-CTF!</p>
+                            <p>But here's the catch — we're keeping that prize list locked down tighter than a zero-day exploit. We can tell you about one prize, though: <span class="highlight">digital legend status</span> as a participant or winner of Mārtiņa-CTF 2024.</p>
+                            <p>Forget Heartbleed, Shellshock, or Log4Shell — this is the vulnerability in your calendar you don't wanna patch. Get ready to etch your name into hacker history!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                                <path d="M12 14l-6.16-3.422a12.083 12.083 0 00-.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 016.824-2.998 12.078 12.078 0 00-.665-6.479L12 14z"></path>
+                            </svg>
+                        </div>
+                        <h4>Kickoff Lecture 📢</h4>
+                        <div>
+                            <p>Before Mārtiņa-CTF kicks off, participants will have the chance to attend an exclusive lecture led by <span class="highlight">Daniels Heincis</span>, a cybersecurity expert with over 3 years of professional experience.</p>
+                            <p>As the educational project lead at one of Latvia's oldest specialized cybersecurity companies — <span class="highlight">Possible Security</span> — he's passionate about making cybersecurity education both engaging and fun.</p>
+                            <p>In this session, he'll dive into the key methods and tools every hacker should have in their toolkit. Whether you're a beginner or a seasoned pro, this lecture will leave you geared up to tackle the challenges with confidence and a hacker's mindset.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-banner">
+                    <p>Are you ready to embark on a journey where puzzles are your passport, teamwork is your sword, and the spirit of CTF courses through your veins? Join us, and let's make this year's Mārtiņš CTF the stuff of legends!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="important-info">
+            <div class="container">
+                <h3>Other Important Things!</h3>
+                
+                <div class="important-grid">
+                    <div class="important-card">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            TASK SUBMISSION
+                        </h4>
+                        <p>As you prepare for the event, you might be wondering about the process for submitting flags. All the possible tasks, their description, and submission forms are displayed on the CTFd platform (we made our own instance, open source projects are AMAZING!). It's also the platform we will be judging you all on >:D</p>
+                        <p>Create your team profile with your team's credentials and GO HACK! Task and Flag submission platform: <span class="highlight">hyperlink will be announced in Discord server</span>.</p>
+                    </div>
+                    
+                    <div class="important-card">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            COMMUNICATION
+                        </h4>
+                        <p>We use Discord as our primary communication platform. It's where all participants or at least one from each team are expected to be found.</p>
+                        <p>Join our Discord server to stay updated, interact with other participants, get live event notifications, and, in case of any technical difficulties, contact organizers.</p>
+                        <p>Discord server: <a href="#" class="highlight">HERE</a></p>
+                    </div>
+                    
+                    <div class="important-card">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            RULES AND REGULATIONS
+                        </h4>
+                        <div class="rules-terminal">
+                            <div class="rules-header">
+                                <span>martina@ctf:~$ cat rules.txt</span>
+                            </div>
+                            <div class="rules-content">
+                                <p>1. Respect other participants and organizers</p>
+                                <p>2. Do not attack the CTF infrastructure</p>
+                                <p>3. Do not share flags or solutions during the competition</p>
+                                <p>4. Stay within the scope of the challenges</p>
+                                <p>5. Have fun and learn!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
