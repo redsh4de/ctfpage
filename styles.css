@@ -130,7 +130,6 @@ a {
 #year-selector li {
     list-style: none;
     font-size: 1.1rem;
-    padding: 0 5px;
 }
 
 #year-selector a:hover {
@@ -140,10 +139,11 @@ a {
     border-radius: 5px;
 }
 
-#year-selector li.active {
+#year-selector a.active {
     background-color: var(--accent-green);
     color: var(--bg-color);
     border-radius: 5px;
+    padding: 0 5px;
 }
 
 #navbar {
